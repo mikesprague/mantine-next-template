@@ -42,6 +42,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "22.10.5",
     "@types/react": "19.0.2",
+    "cz-git": "1.11.0",
     "babel-loader": "9.2.1",
     "eslint": "9.17.0",
     "eslint-config-mantine": "4.0.3",
@@ -60,5 +61,10 @@
     "ts-jest": "29.2.5",
     "typescript": "5.7.2",
     "typescript-eslint": "8.19.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-git"
+    }
   }
 }
