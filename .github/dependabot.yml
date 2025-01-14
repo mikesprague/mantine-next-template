@@ -14,9 +14,56 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     groups:
+      mantine:
+        patterns:
+          - "@mantine/*"
+      next:
+        patterns:
+          - "next"
+          - "@next/bundle-analyzer"
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+      babel:
+        patterns:
+          - "babel"
+          - "@babel/*"
+          - "babel-*"
+      eslint:
+        patterns:
+          - "@eslint/js"
+          - "eslint"
+          - "eslint-plugin-*"
+          - "eslint-config-*"
+          - "typescript-eslint"
+      jest:
+        patterns:
+          - "jest"
+          - "jest-*"
+          - "ts-jest"
+      postcss:
+        patterns:
+          - "postcss"
+          - "postcss-*"
+      prettier:
+        patterns:
+          - "prettier"
+          - "@ianvs/prettier-plugin-sort-imports"
+      storybook:
+        patterns:
+          - "storybook"
+          - "storybook-dark-mode"
+          - "@storybook/*"
+      testing-library:
+        patterns:
+          - "@testing-library/*"
       types:
         patterns:
           - "@types/*"
+      typescript:
+        patterns:
+          - "typescript"
     schedule:
       interval: "daily"
       time: "07:00"
