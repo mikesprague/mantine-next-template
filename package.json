@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.26.8",
-    "@eslint/js": "9.19.0",
+    "@eslint/js": "9.20.0",
     "@ianvs/prettier-plugin-sort-imports": "4.4.1",
     "@storybook/nextjs": "8.5.3",
     "@storybook/react": "8.5.3",
@@ -44,7 +44,7 @@
     "@types/react": "19.0.8",
     "cz-git": "1.11.0",
     "babel-loader": "9.2.1",
-    "eslint": "9.19.0",
+    "eslint": "9.20.0",
     "eslint-config-mantine": "4.0.3",
     "eslint-config-next": "15.1.6",
     "eslint-plugin-jsx-a11y": "6.10.2",
