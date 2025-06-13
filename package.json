@@ -42,7 +42,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "24.0.1",
     "@types/react": "19.1.8",
-    "cz-git": "1.11.1",
+    "cz-git": "1.11.2",
     "babel-loader": "10.0.0",
     "eslint": "9.28.0",
     "eslint-config-mantine": "4.0.3",
