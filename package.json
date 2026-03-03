@@ -23,7 +23,7 @@
     "node": ">=24.x",
     "npm": ">=11.x"
   },
-  "packageManager": "npm@11.9.0",
+  "packageManager": "npm@11.11.0",
   "dependencies": {
     "@mantine/core": "8.3.15",
     "@mantine/hooks": "8.3.15",
@@ -49,7 +49,7 @@
     "@types/react": "19.2.14",
     "cz-git": "1.12.0",
     "babel-loader": "10.0.0",
-    "eslint": "^10.0.0",
+    "eslint": "^10.0.2",
     "eslint-config-mantine": "4.0.3",
     "eslint-config-next": "16.1.6",
     "eslint-plugin-jsx-a11y": "6.10.2",
@@ -57,11 +57,11 @@
     "eslint-plugin-react-hooks": "7.0.1",
     "jest": "30.2.0",
     "jest-environment-jsdom": "30.2.0",
-    "postcss": "8.5.6",
+    "postcss": "8.5.8",
     "postcss-preset-mantine": "1.18.0",
     "postcss-simple-vars": "7.0.1",
     "prettier": "3.8.1",
-    "storybook": "^10.2.8",
+    "storybook": "^10.2.14",
     "storybook-dark-mode": "4.0.2",
     "stylelint": "17.4.0",
     "stylelint-config-standard-scss": "17.0.0",
@@ -71,12 +71,15 @@
   },
   "overrides": {
     "@eslint/js": "^10.0.1",
-    "brace-expansion": "^4.0.1",
+    "ajv": "^8.18.0",
+    "bn.js": "^5.2.3",
+    "brace-expansion": "^5.0.4",
     "elliptic": "^6.6.1",
-    "eslint": "^10.0.0",
-    "glob": "^13.0.2",
-    "rimraf": "^6.1.2",
-    "storybook": "^10.2.8"
+    "eslint": "^10.0.2",
+    "glob": "^13.0.6",
+    "rimraf": "^6.1.3",
+    "serialize-javascript": "^7.0.4",
+    "storybook": "^10.2.14"
   },
   "config": {
     "commitizen": {
